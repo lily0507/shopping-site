@@ -139,10 +139,12 @@ header {
 .pan_box {
     width: 100%;
     background-color: #e8e4da;
+    border-radius: 3px;
     
     ul {
         list-style: none;
         margin-bottom: 10px;
+        padding-left: 10px;
     }
     
     li {
@@ -224,12 +226,14 @@ header {
             overflow: hidden;
             margin-bottom: 0;
             
+            
             .display_side {
                 width: 49%;
                 padding-left: 1%;
                 list-style: none;
                 float: left;
                 margin-bottom: 0;
+
             }
             img {
                 width: 95%;
@@ -249,12 +253,16 @@ header {
         }
         
         ul {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
             
             .display_side {
                 width: 20%;
                 list-style: none;
                 margin-bottom: 0;
                 float:left;
+                text-align: center;
             }
             img {
                 width: 95%;
@@ -466,32 +474,16 @@ header {
     }
 }
 
-
-
-
-
-
-
-
-@media (min-width: 551px) {
-    .sp_headimg {
-        display: none;
-    }
-}
-@media (max-width: 550px) {
-    .pc_headimg {
-        display: none;
-    }
-}
-
 .items {
     overflow: hidden;
     
     .item_box {
         background-color: white;
         padding: 1.5%;
-        width: 30.3%;
+        width: 30%;
         float: left;
+        margin-right: 0.3%;
+        margin-bottom: 0.3%;
         
         img {
             width: 100%;
@@ -508,7 +500,7 @@ header {
         .item_box {
             background-color: white;
             padding: 1.5%;
-            width: 47%;
+            width: 46.7%;
             float: left;
         }
     }
@@ -622,9 +614,6 @@ bottom {
     
 
 // ============== side start =================
-.side {
-    margin-top: 15px;
-}
 
 .search_box {
     background-color: white;
@@ -689,6 +678,7 @@ bottom {
     ul {
         list-style: none;
         text-align: justify;
+        margin-bottom: 0;
         
         li {
             line-height: 50px;
@@ -711,6 +701,17 @@ bottom {
     }
 }
 
+.rink_box2 {
+    background-color: $graybrown;
+    margin-top: 10px; 
+    position: relative;
+    
+    .rink_in2 {
+        padding: 10px;
+        vertical-align: middle;
+    }
+}
+
 .about_box {
     background-color: white;
     padding: 10px;
@@ -721,7 +722,8 @@ bottom {
         @media (max-width: 550px) {
             .aaa {
                 float: left;
-                width: 50%;
+                width: 47%;
+                margin-right: 10px;
             }
         }
     

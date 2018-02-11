@@ -75,10 +75,12 @@ html {
 
 .pan_box {
   width: 100%;
-  background-color: #e8e4da; }
+  background-color: #e8e4da;
+  border-radius: 3px; }
   .pan_box ul {
     list-style: none;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    padding-left: 10px; }
   .pan_box li {
     display: inline-block;
     margin: 5px 0; }
@@ -144,14 +146,19 @@ html {
       .main_box .display_con #display_box {
         width: 100%;
         margin-right: 1%; }
-      .main_box .display_con ul .display_side {
-        width: 20%;
-        list-style: none;
-        margin-bottom: 0;
-        float: left; }
-      .main_box .display_con ul img {
-        width: 95%;
-        cursor: pointer; } }
+      .main_box .display_con ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; }
+        .main_box .display_con ul .display_side {
+          width: 20%;
+          list-style: none;
+          margin-bottom: 0;
+          float: left;
+          text-align: center; }
+        .main_box .display_con ul img {
+          width: 95%;
+          cursor: pointer; } }
   .main_box .cr_box {
     width: 100%;
     display: flex; }
@@ -287,19 +294,15 @@ html {
       margin-bottom: 10px;
       padding: 0 10px; }
 
-@media (min-width: 551px) {
-  .sp_headimg {
-    display: none; } }
-@media (max-width: 550px) {
-  .pc_headimg {
-    display: none; } }
 .items {
   overflow: hidden; }
   .items .item_box {
     background-color: white;
     padding: 1.5%;
-    width: 30.3%;
-    float: left; }
+    width: 30%;
+    float: left;
+    margin-right: 0.3%;
+    margin-bottom: 0.3%; }
     .items .item_box img {
       width: 100%; }
     .items .item_box p {
@@ -310,7 +313,7 @@ html {
     .items .item_box {
       background-color: white;
       padding: 1.5%;
-      width: 47%;
+      width: 46.7%;
       float: left; } }
 
 .bn_back {
@@ -389,9 +392,6 @@ bottom {
       margin-top: 10px; }
       .footer_box .footer_box2 .footer_inbox2 {
         padding: 5%; } }
-.side {
-  margin-top: 15px; }
-
 .search_box {
   background-color: white; }
   .search_box .in_box {
@@ -435,7 +435,8 @@ bottom {
 
 .categorie_box ul {
   list-style: none;
-  text-align: justify; }
+  text-align: justify;
+  margin-bottom: 0; }
   .categorie_box ul li {
     line-height: 50px;
     margin-bottom: 1px;
@@ -451,6 +452,14 @@ bottom {
     background-repeat: no-repeat;
     background-position: 90%; }
 
+.rink_box2 {
+  background-color: #887f69;
+  margin-top: 10px;
+  position: relative; }
+  .rink_box2 .rink_in2 {
+    padding: 10px;
+    vertical-align: middle; }
+
 .about_box {
   background-color: white;
   padding: 10px; }
@@ -459,7 +468,8 @@ bottom {
     @media (max-width: 550px) {
       .about_box .about_in .aaa {
         float: left;
-        width: 50%; } }
+        width: 47%;
+        margin-right: 10px; } }
     .about_box .about_in p {
       font-size: 10px;
       letter-spacing: 1px;
