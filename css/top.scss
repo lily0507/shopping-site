@@ -320,6 +320,12 @@ header {
     }
 }
 
+@media (max-width: 550px) {
+    .search_box {
+        margin-top: 10px;
+    }
+}
+
 .rink_box {
     background-color: $graybrown;
     margin-top: 10px; 

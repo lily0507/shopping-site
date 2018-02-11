@@ -158,6 +158,12 @@ header {
     }
 }
 
+@media (max-width: 550px) {
+    .pan_box {
+        width: auto;
+        margin: 0 15px;
+    }
+}
 
 // ============== main start ================= 
 .main_box {
@@ -250,6 +256,10 @@ header {
         #display_box {
             width: 100%;
             margin-right: 1%;
+            
+            img {
+                width: 100%;
+            }
         }
         
         ul {
@@ -474,6 +484,12 @@ header {
     }
 }
 
+@media (max-width: 550px) {
+    .main_box {
+        padding: 15px;
+    }
+}
+
 .items {
     overflow: hidden;
     
@@ -646,6 +662,12 @@ bottom {
                 top: 3px;
             }
         }
+    }
+}
+
+@media (max-width: 550px) {
+    .search_box {
+        margin-top: 10px;
     }
 }
 

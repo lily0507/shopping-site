@@ -191,6 +191,9 @@ html {
         left: 88%;
         top: 3px; }
 
+@media (max-width: 550px) {
+  .search_box {
+    margin-top: 10px; } }
 .rink_box {
   background-color: #887f69;
   margin-top: 10px;

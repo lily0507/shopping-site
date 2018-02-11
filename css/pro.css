@@ -89,6 +89,10 @@ html {
     font-size: 11px;
     text-decoration: none; }
 
+@media (max-width: 550px) {
+  .pan_box {
+    width: auto;
+    margin: 0 15px; } }
 .main_box {
   background-color: white;
   padding: 60px;
@@ -146,6 +150,8 @@ html {
       .main_box .display_con #display_box {
         width: 100%;
         margin-right: 1%; }
+        .main_box .display_con #display_box img {
+          width: 100%; }
       .main_box .display_con ul {
         display: flex;
         justify-content: space-between;
@@ -294,6 +300,9 @@ html {
       margin-bottom: 10px;
       padding: 0 10px; }
 
+@media (max-width: 550px) {
+  .main_box {
+    padding: 15px; } }
 .items {
   overflow: hidden; }
   .items .item_box {
@@ -415,6 +424,9 @@ bottom {
         left: 88%;
         top: 3px; }
 
+@media (max-width: 550px) {
+  .search_box {
+    margin-top: 10px; } }
 .rink_box {
   background-color: #887f69;
   margin-top: 10px;
