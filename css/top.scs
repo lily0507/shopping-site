@@ -1,0 +1,47 @@
+html {
+  font-size: 12px;
+  background-color: #f9f8f6; }
+
+header #head_logo {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  header #head_logo .six.columns {
+    padding-top: 15px; }
+    header #head_logo .six.columns h1 {
+      margin-bottom: 0; }
+    @media (min-width: 601px) {
+      header #head_logo .six.columns .pclogo {
+        display: block; }
+      header #head_logo .six.columns .splogo {
+        display: none; } }
+    @media (max-width: 600px) {
+      header #head_logo .six.columns .pclogo {
+        display: none; }
+      header #head_logo .six.columns .splogo {
+        display: block; } }
+  header #head_logo .five.columns {
+    margin-left: 6%;
+    padding-top: 30px; }
+    @media (min-width: 601px) {
+      header #head_logo .five.columns .sp_navi {
+        display: none; }
+      header #head_logo .five.columns .pc_navi ul {
+        letter-spacing: 20px;
+        text-align: right; }
+      header #head_logo .five.columns .pc_navi li {
+        list-style: none;
+        display: inline-block;
+        vertical-align: bottom; } }
+    @media (max-width: 600px) {
+      header #head_logo .five.columns .pc_navi {
+        display: none; } }
+  header #head_logo .one.columns {
+    margin-left: 1%;
+    width: 5.66666666667%;
+    padding-top: 30px; }
+    header #head_logo .one.columns .sns_navi a {
+      width: 50px; }
+      header #head_logo .one.columns .sns_navi a .pcsns {
+        width: 50px; }
+
+/*# sourceMappingURL=top.scs.map */
